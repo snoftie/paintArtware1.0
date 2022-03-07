@@ -24,10 +24,13 @@ right: 3%;
 width: 70vw;
 height: 70vh;
 background: white;
-border-radius: 61% 16% 47% 64% / 29% 54% 33% 49% ;
 overflow: auto;
 overflow-y: hidden;
 overflow-x: hidden;
+animation: bob;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
 }
 
 @keyframes bob {
@@ -57,7 +60,7 @@ overflow-x: hidden;
   right: 90%;
   border-radius: 92% 58% 51% 81% / 49% 100% 57% 100% ;
   animation: bob;
-  animation-duration: 3s;
+  animation-duration: 1.5s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   padding: 4px;
